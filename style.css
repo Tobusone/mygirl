@@ -1,0 +1,109 @@
+.title {
+    text-align: center;
+    color: #e271dd;
+    background-color: #e22bd9;
+    font-size: 80px;
+    font-style: oblique;
+    text-decoration: underline #e22bd9;
+    text-shadow: 3px 2px #fbff00;
+    padding: 0px;
+
+}
+
+.content {
+    margin-left: 145px;
+    margin-right: 145px;
+    background-color: #e22bd9;
+    margin-top: -4px;
+    padding: 30px;
+}
+.headings{
+    text-align: center;
+    color: #e271dd;
+    background-color: #e22bd9;
+    font-size: 50px;
+    font-style: oblique;
+    text-shadow: 2px 1px #fbff00;
+    padding: 0px;
+    text-decoration: underline #e22bd9;
+
+}
+
+.text1 {
+    font-size: 25px;
+    color: #fbff00;
+    font-style: oblique;
+    text-align: center;
+}
+
+.body {
+    background-color: #e22bd9;
+    background-image: url(images/pinkflower.png);
+    background-size: 5%;
+}
+.navbar{
+    font-size: 10px;
+    width: 100%;
+    padding: 12.8px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e22bd9;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    margin-right: 25px;
+    margin-left: 25px;
+
+}
+.navbar ul li a{
+    font-size: 30px;
+    color: #fbff00;
+    font-style: oblique;
+    text-decoration: none;
+    
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #fbff00;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+.column {
+    width: 25%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row:{
+    display: flex;
+}
+
+
+
+<p>
+<img src="splitkitty.png" align="bottom-right" width="200" height="200">
+<img src="peacekitty2.png" align="top-right" width="200" height="200">
+
+<img src="lizard2.JPG" align="bottom-left" width="200" height="200">
+<img src="bird2.jpg" align="top-left" width="200" height="200">
+</p>
